@@ -1,0 +1,240 @@
+/* Tablets - 1280px e abaixo */
+@media(max-width: 1280px) {
+    .cabecalho {
+        padding: 30px;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+        gap: 30px;
+    }
+
+    .home .informacoes {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .projetos {
+        padding: 70px 15px;
+    }
+
+    .projetos .container-projetos {
+        padding: 0;
+        gap: 20px;
+    }
+
+    .projetos .projeto {
+        max-width: 240px;
+        max-height: 450px;
+    }
+
+    .projetos .btn-mostrar-projetos {
+        display: block;
+        margin: 30px auto 0;
+    }
+}
+
+/* Tablets pequenos - 768px e abaixo */
+@media(max-width: 768px) {
+    .cabecalho {
+        padding: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cabecalho .logo {
+        width: 55px;
+        height: 55px;
+        line-height: 45px;
+    }
+
+    .home {
+        min-height: auto;
+        gap: 20px;
+        padding: 30px 0;
+    }
+
+    .home .informacoes {
+        gap: 10px;
+    }
+
+    .home .informacoes h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .home .informacoes p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .home .container-foto .foto {
+        max-width: 300px;
+    }
+
+    .projetos {
+        padding: 50px 20px;
+    }
+
+    .projetos .titulo {
+        font-size: 32px;
+        padding: 40px 0;
+    }
+
+    .projetos .container-projetos {
+        padding: 0 20px;
+        gap: 15px;
+    }
+
+    .projetos .projeto {
+        max-width: 200px;
+        max-height: 380px;
+    }
+
+    .projetos .projeto h3 {
+        font-size: 14px;
+        padding: 10px;
+        padding-left: 15px;
+    }
+
+    .projetos .projeto .informacoes-projeto {
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    .informacoes-linguagens img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* Celulares - 480px e abaixo */
+@media(max-width: 480px) {
+    .cabecalho {
+        padding: 15px;
+    }
+
+    .cabecalho .logo {
+        width: 50px;
+        height: 50px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+
+    .cabecalho .menu li a {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .home {
+        padding: 20px 15px;
+    }
+
+    .home .informacoes {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .home .informacoes h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+    }
+
+    .home .informacoes p {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .home .container-foto .foto {
+        max-width: 200px;
+    }
+
+    .home .container-foto img {
+        max-width: 200px;
+    }
+
+    .home .redes-sociais {
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .home .redes-sociais a i {
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+        font-size: 20px;
+    }
+
+    .projetos {
+        padding: 30px 15px;
+    }
+
+    .projetos .titulo {
+        font-size: 24px;
+        padding: 30px 0;
+        text-shadow: 2px 2px 2px #7f46ae;
+    }
+
+    .projetos .container-projetos {
+        padding: 0;
+        gap: 12px;
+        justify-content: center;
+    }
+
+    .projetos .projeto {
+        max-width: 160px;
+        max-height: 300px;
+        min-width: 160px;
+    }
+
+    .projetos .projeto img {
+        object-fit: cover;
+    }
+
+    .projetos .projeto h3 {
+        font-size: 12px;
+        padding: 8px;
+        padding-left: 12px;
+    }
+
+    .projetos .projeto .informacoes-projeto {
+        padding: 12px;
+        font-size: 11px;
+    }
+
+    .projetos .btn-mostrar-projetos {
+        width: 150px;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .informacoes-linguagens {
+        gap: 3px;
+    }
+
+    .informacoes-linguagens img {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+/* Celulares muito pequenos - 360px e abaixo */
+@media(max-width: 360px) {
+    .home .informacoes h1 {
+        font-size: 20px;
+    }
+
+    .projetos .projeto {
+        max-width: 140px;
+        max-height: 280px;
+        min-width: 140px;
+    }
+
+    .projetos .container-projetos {
+        gap: 10px;
+    }
+}
