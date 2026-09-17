@@ -86,10 +86,23 @@ body {
 
 .home .redes-sociais {
 	display: flex;
+	align-items: center;
 	gap: 20px;
+	list-style: none;
+	padding: 0;
+	margin: 10px 0 0;
+}
+
+.home .redes-sociais li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .home .redes-sociais a i {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 	border: 1px solid #fff;
 	border-radius: 50%;
 	width: 50px;
